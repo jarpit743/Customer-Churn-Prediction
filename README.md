@@ -1,7 +1,7 @@
 
 # Customer Churn Prediction Project
 
-A machine learning project aimed at predicting customer churn using data analysis and classification models, followed by deploying a predictive API using Flask.
+A machine learning project aimed at predicting customer churn using data analysis and classification models, followed by deploying using Flask.
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
@@ -22,7 +22,7 @@ A machine learning project aimed at predicting customer churn using data analysi
 Customer churn refers to when customers stop using a product or service. This project aims to predict which customers are likely to churn using historical data and machine learning techniques. The process involves three main stages:
 1. **Exploratory Data Analysis (EDA):** Understanding and visualizing the data.
 2. **Model Building:** Training machine learning models to make predictions.
-3. **API Development:** Creating a Flask API for serving churn predictions.
+3. **Deployment:** Creating a Flask API for serving churn predictions.
 
 The project will help businesses take proactive actions to retain customers and minimize churn rates.
 
@@ -37,20 +37,23 @@ The project will help businesses take proactive actions to retain customers and 
 3. **app.py**: 
    - A Python Flask app that hosts a simple web API. The API accepts customer data as input and provides a prediction on whether the customer is likely to churn or not, using the trained machine learning model.
 
-## Dataset Overview
+## About Dataset
 
-The dataset used in this project typically includes the following columns:
-- **CustomerID**: Unique identifier for each customer.
-- **Gender**: Gender of the customer.
-- **SeniorCitizen**: Indicates if the customer is a senior citizen.
-- **Partner**: Whether the customer has a partner.
-- **Dependents**: Whether the customer has dependents.
-- **Tenure**: Number of months the customer has been with the company.
-- **PhoneService**: Whether the customer has a phone service.
-- **MultipleLines**: Whether the customer has multiple lines.
-- **InternetService**: Type of internet service customer uses (DSL, Fiber optic, etc.).
-- **TotalCharges**: The total amount charged to the customer.
-- **Churn**: The target variable (whether the customer churned).
+### Context
+"Predict behavior to retain customers. You can analyze all relevant customer data and develop focused customer retention programs." - [IBM Sample Data Sets]
+
+This dataset, available on Kaggle, helps businesses understand customer behavior and predict potential churners based on historical data. The goal is to analyze customer data and build strategies for retention.
+
+**Dataset Link:** [Telco Customer Churn Dataset on Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+
+### Content
+Each row in the dataset represents a customer, with columns providing details about:
+
+- **Churn**: Whether the customer has left in the last month.
+- **Services**: Phone, multiple lines, internet services (DSL, fiber optic), online security, backup, device protection, tech support, and streaming services.
+- **Account Information**: Tenure, contract type, payment method, paperless billing, monthly and total charges.
+- **Demographics**: Gender, age, partner, and dependent status.
+
 
 ## Requirements
 
