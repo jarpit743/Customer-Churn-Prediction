@@ -6,7 +6,7 @@ A machine learning project aimed at predicting customer churn using data analysi
 ## Table of Contents
 1. [Project Overview](#project-overview)
 2. [Project Structure](#project-structure)
-3. [Dataset Overview](#dataset-overview)
+3. [About Dataset](#dataset-overview)
 4. [Requirements](#requirements)
 5. [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
 6. [Model Building](#model-building)
