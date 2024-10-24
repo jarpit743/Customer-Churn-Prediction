@@ -14,8 +14,6 @@ A machine learning project aimed at predicting customer churn using data analysi
 8. [Steps to Run the Project](#steps-to-run-the-project)
 9. [Model Evaluation](#model-evaluation)
 10. [API Usage](#api-usage)
-11. [Future Enhancements](#future-enhancements)
-12. [License](#license)
 
 ## Project Overview
 
@@ -165,14 +163,3 @@ curl -X POST http://localhost:5000/predict -H "Content-Type: application/json" -
 ```
 
 The response will be either `Churn` or `No Churn`.
-
-## Future Enhancements
-
-- **Feature Engineering**: Introduce more complex features and interactions to improve model performance.
-- **Hyperparameter Tuning**: Use grid search or random search for model optimization.
-- **Web Interface**: Add a simple HTML front-end to allow users to input customer data and get predictions through a web form.
-- **Cloud Deployment**: Deploy the Flask API on cloud platforms like AWS, Heroku, or Azure for public access.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
